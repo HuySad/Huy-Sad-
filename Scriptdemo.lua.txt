@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=127946111111181",
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -34,7 +34,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Script V4"})
      local Tab3o = MakeTab({Name = "Script PVP"})
      local Tab4o = MakeTab({Name = "Script Tele Fruit"})
-     
+     local Tab5o = MakeTab({Name = "Script Katun"})
+     local Tab6o = MakeTab({Name = "Script Mua"})
+     local Tab7o = MakeTab({Name = "Script FPS"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -99,14 +101,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
   
   AddButton(Tab2o, {
-     Name = "Rip Indra",
+     Name = "Rip Indra ( updet )",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Rip_Indra"))()
   end
   })
   
   AddButton(Tab2o, {
-     Name = "Dough King V2",
+     Name = "Dough King V2 ( updet )",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnBeoDepTrai/refs/heads/main/Dough_King"))()
   end
@@ -150,6 +152,202 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-H
      Name = "Zis Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb2"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Kim Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/KimPGaming"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Sppeed Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Quantun Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Cokka Hub ( get key )",
+    Callback = function()
+	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Volcan",
+    Callback = function()
+	  -- VOLCANO
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoNewUpdated.luau"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "BlueX Hub",
+    Callback = function()
+	  _G.Team = "Pirates"
+_G.FixLag = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Alchemy Hub",
+    Callback = function()
+	  _G.FruitFinder = true;
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Ko Biêt Tên",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Rubu Hub V3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Raito Hub",
+    Callback = function()
+	  ServerHopTimer = 5
+TeleportSafe = true
+Webhook = "Your Webhook Here"
+_G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "FlyGuiV3 Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "Xero Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/pisovn/OisiRoblox1/refs/heads/main/AutoBountyXero"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Katun Hub 1",
+    Callback = function()
+	  _G.Config = {
+["Melee"] = {
+["Superhuman"] = true,
+["Death Step"] = true,
+["Sharkman Karate"] = true,
+["Electric Claw"] = true,
+["Dragon Talon"] = true,
+["Godhuman"] = true
+},
+["Sword"] = {
+["Saber"] = true,
+["Rengoku"] = true,
+["Canvander"] = true,
+["Buddy Sword"] = true,
+["Yama"] = true,
+["Tushita"] = true,
+["True Triple Katana"] = true,
+["Cursed Dual Katana"] = true
+},
+["Gun"] = {
+["Kabucha"] = true,
+["Acidum Rifle"] = true,
+["Serpent Bow"] = true
+},
+["Mastery"] = {
+["Sword"] = true
+},
+["Setting"] = {
+["Enabled"] = true,
+["Bring Mob [Less Lag]"] = true,
+["Hop Server"] = true,
+["Reduce Lag"] = true,
+["Notifycation Remove"] = true,
+["Hop When Player Nearby"] = {
+["Enabled"] = true,
+["Radius"] = 350
+}
+}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Katun Hub 2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "Maru Hub Pemin ( giới hạn 1 máy)",
+    Callback = function()
+	  getgenv().Key = "MARU-VLQF-VF/X4L"
+getgenv().id = "1170314201512824893"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "Chuối Hub perm ( giới hạn 1 máy)",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "df3d2" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "Royx Hub perm ( giới hạn 1 máy)",
+    Callback = function()
+	  _G.Key = "POBPP"
+_G.DiscordId = "1170313"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "W azun Hub perm ( gioi hạn 1 máy)",
+    Callback = function()
+	  script_key = "MSqyeRfcTjPFhmhMaCEZ"
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+  
+  AddButton(Tab7o, {
+     Name = "FPS Hub ( fix lag )",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+ 
+   AddButton(Tab2o, {
+     Name = "Cuttay Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
   end
   })
   
